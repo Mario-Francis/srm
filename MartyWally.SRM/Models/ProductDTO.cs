@@ -25,6 +25,7 @@ namespace MartyWally.SRM.Models
             return new ProductDTO
             {
                 Id = product.Id,
+                Name=product.Name,
                 SupplierId = product.SupplierId,
                 UnitPrice = product.UnitPrice,
                 QuantityInStock = product.QuantityInStock,
